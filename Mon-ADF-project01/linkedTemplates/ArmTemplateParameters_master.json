@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "Mon-ADF-project01"
+		},
+		"AzureDataLakeStorage1_linkService_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_linkService_properties_typeProperties_url": {
+			"value": "https://adlsgen2rproject01.dfs.core.windows.net/"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://mon-key-vault-project01.vault.azure.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
